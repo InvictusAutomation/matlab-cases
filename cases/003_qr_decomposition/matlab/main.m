@@ -1,0 +1,4 @@
+% QR Decomposition
+A = [12 -51 4; 6 167 -68; -4 24 -41];
+[Q, R] = qr(A);
+disp('QR Decomposition:');
