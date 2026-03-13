@@ -1,32 +1,37 @@
-# 031_linear_eq
+# 031 Linear Eq
 
-## Case Overview
+## 案例描述
 
-MATLAB to Python implementation example.
+线性方程组 - Ax=b求解
 
-## Structure
+## 文件结构
 
 ```
 031_linear_eq/
-├── README.md      # This file
-├── matlab/       # MATLAB code
+├── README.md          # 本说明文件
+├── matlab/           # MATLAB 实现代码
 │   └── main.m
-├── python/       # Python code
+├── python/           # Python 实现代码
 │   └── main.py
-├── data/        # Test data
-│   └── input.csv
-└── results/     # Output results
+└── data/            # 测试数据
+    └── input.csv
 ```
 
-## MATLAB Code
+## MATLAB 代码示例
 
-See `matlab/main.m`
+```matlab
+% 031_linear_eq MATLAB 实现
+% 请参考 matlab/main.m 文件
+```
 
-## Python Code
+## Python 代码示例
 
-See `python/main.py`
+```python
+# 031_linear_eq Python 实现
+# 请参考 python/main.py 文件
+```
 
-## Run
+## 运行方法
 
 ### MATLAB
 ```matlab
@@ -36,5 +41,11 @@ main
 
 ### Python
 ```bash
-python python/main.py
+cd python
+python main.py
 ```
+
+## 相关函数
+
+- MATLAB: 
+- Python: numpy, scipy
